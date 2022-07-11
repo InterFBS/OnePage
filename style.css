@@ -187,12 +187,14 @@ p {
 }
 
 /* End Services Section */
+
 /* Projects Section*/
 #projects .projects {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+  text-align: center;
 }
 #projects .projects-header h1 {
   margin-bottom: 50px;
