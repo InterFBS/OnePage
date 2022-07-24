@@ -130,7 +130,7 @@ p {
 
 #services .service-top p {
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   margin-top: 5px;
   line-height: 2.5rem;
   font-weight: 300;
@@ -146,7 +146,6 @@ p {
 #services .service-item {
   flex-basis: 80%;
   display: flex;
-  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   padding: 30px;
@@ -173,6 +172,7 @@ p {
 #services .service-bottom .icon {
   height: 80px;
   width: 80px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 #services .service-item h2 {
@@ -183,7 +183,7 @@ p {
 }
 #services .service-item p {
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 /* End Services Section */
@@ -279,10 +279,12 @@ p {
 #about .col-right{
   width: 100%;
 }
-
+#about .col-right p{
+  font-size: 1.7rem;
+}
 #about .col-right h2{
   padding: 20px;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: 500;
   letter-spacing: 1.2rem;
 }
