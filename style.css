@@ -27,12 +27,18 @@ img {
   object-fit: cover;
 }
 p {
-  color: black;
+  color: rgba(0, 0, 0, 0.927);
   font-size: 1.4rem;
   margin-top: 5px;
   line-height: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
+}
+.text-format{
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
 }
 .section-title {
   font-size: 4rem;
@@ -137,6 +143,7 @@ p {
   letter-spacing: 0.05rem;
 }
 #services .service-bottom {
+  backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,8 +189,10 @@ p {
   text-transform: uppercase;
 }
 #services .service-item p {
-  color: white;
+color: rgba(255, 255, 255, 0.9);
   text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
 }
 
 /* End Services Section */
@@ -200,6 +209,7 @@ p {
   margin-bottom: 50px;
 }
 #projects .all-projects {
+  backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
   justify-content: center;
